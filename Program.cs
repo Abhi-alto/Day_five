@@ -1,21 +1,20 @@
-﻿Console.WriteLine("Enter a value for n till where you want harmonic numbers");
+﻿using Day_five_assignment;
+Console.WriteLine("Enter a value whose prime factors you want");
 int n=Convert.ToInt32(Console.ReadLine());
-double harm = 0;
-if (n < 0 || n == 0)
+Console.WriteLine("Prime factorization of " + n + " = ");
+for (int i = 2; i <= (n / 2); i++)            //factors are only from 2 to the half of the number
 {
-    Console.WriteLine("Wrong input");
+    while (n % i == 0)              
+    {
+        Console.WriteLine(i + " ");
+        n = n / i;                          //remove that particular factor by updating the number value
+    }
+}
+if(n>1)
+{
+    Console.WriteLine(n);
 }
 else
 {
-    for (int i = 1; i <= n; i++)
-    {
-        harm = harm + (1.0/ i);
-        if (i == n)
-        {
-            Console.Write("1/" + i + "=");
-            break;
-        }
-        Console.Write("1/" + i + "+");
-    }
-    Console.WriteLine(harm);
+    Console.WriteLine("Error");
 }
