@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\Day_five_assignment.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\Day_five_assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\Day_five_assignment.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\Day_five_assignment.AssemblyInfo.cs
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\Day_five_assignment.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\bin\Debug\net6.0\Day_five_assignment.exe
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\bin\Debug\net6.0\Day_five_assignment.deps.json
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\bin\Debug\net6.0\Day_five_assignment.runtimeconfig.json
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\bin\Debug\net6.0\Day_five_assignment.dll
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\bin\Debug\net6.0\Day_five_assignment.pdb
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\Day_five_assignment.dll
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\refint\Day_five_assignment.dll
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\Day_five_assignment.pdb
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\Day_five_assignment.genruntimeconfig.cache
+C:\Users\HP\source\repos\CL-5\Day_five_assignment\obj\Debug\net6.0\ref\Day_five_assignment.dll
