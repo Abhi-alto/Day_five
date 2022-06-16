@@ -1,18 +1,31 @@
-﻿Console.WriteLine("Enter a letter ");
-char n = Convert.ToChar(Console.ReadLine());
-n = char.ToUpper(n);
-if (n > 64 && n < 91)
+﻿Console.WriteLine("Enter number 1");
+int a = Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("Enter number 2 ");
+int b = Convert.ToInt16(Console.ReadLine());
+Console.WriteLine("Enter number 3");
+int c = Convert.ToInt16(Console.ReadLine());
+if (a != b && b != c)
 {
-    if (n == 'A' || n == 'E' || n == 'I' || n == 'O' || n == 'U')
-    {
-        Console.WriteLine("Vowel");
-    }
-    else
-    {
-        Console.WriteLine("Consonant");
-    }
+    int temp = (a > b ? a : b);
+    int max = (temp > c ? temp : c);
+    Console.WriteLine("Greatest of the three is " + max);
+}
+else if (a != b && b == c)
+{
+    int max =( a > c ? a : c);
+    Console.WriteLine("b & C are equal and the greatest is " + max);
+}
+else if (a == b && b != c)
+{
+    int max = (a > c ? a : c);
+    Console.WriteLine("a & b are equal and the greatest is " + max);
+}
+else if (a == c && b != c)
+{
+    int max = (a > b ? a : b);
+    Console.WriteLine("a & c are equal and the greatest is " + max);
 }
 else
 {
-    Console.WriteLine("Wrong input");
+    Console.WriteLine("All three no. are same");
 }
