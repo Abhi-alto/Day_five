@@ -1,13 +1,21 @@
-﻿Console.WriteLine("Enter a value for n till where you want 2^n");
-int n=Convert.ToInt16(Console.ReadLine());
-if (n > 0 && n < 31)
+﻿Console.WriteLine("Enter a value for n till where you want harmonic numbers");
+int n=Convert.ToInt32(Console.ReadLine());
+double harm = 0;
+if (n < 0 || n == 0)
 {
-    for (int i = 1; i <= n; i++)
-    {
-        Console.WriteLine("2 ^ " + i + " = " + (Math.Pow(2, i)));
-    }
+    Console.WriteLine("Wrong input");
 }
 else
 {
-    Console.WriteLine("Wrong input");
+    for (int i = 1; i <= n; i++)
+    {
+        harm = harm + (1.0/ i);
+        if (i == n)
+        {
+            Console.Write("1/" + i + "=");
+            break;
+        }
+        Console.Write("1/" + i + "+");
+    }
+    Console.WriteLine(harm);
 }
