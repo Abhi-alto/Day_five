@@ -1,6 +1,11 @@
-﻿Console.WriteLine("Enter numerator");
+﻿Console.WriteLine("Enter number 1");
 int n=Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Enter any denominator");
+Console.WriteLine("Enter number 2");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Quotient is " +(n/m));
-Console.WriteLine("Remainder is " + (n % m));
+Console.WriteLine("n = "+n);
+Console.WriteLine("m = "+m);
+n = n + m;
+m = n - m;
+n = n - m;
+Console.WriteLine("n = " + n);
+Console.WriteLine("m = " + m);
