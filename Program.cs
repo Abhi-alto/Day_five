@@ -1,11 +1,10 @@
-﻿Console.WriteLine("Enter number 1");
+﻿Console.WriteLine("Enter a number ");
 int n=Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Enter number 2");
-int m = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("n = "+n);
-Console.WriteLine("m = "+m);
-n = n + m;
-m = n - m;
-n = n - m;
-Console.WriteLine("n = " + n);
-Console.WriteLine("m = " + m);
+if(n%2==0)
+{
+    Console.WriteLine("Even number");
+}
+else
+{
+    Console.WriteLine("Odd number");
+}
