@@ -1,10 +1,18 @@
-﻿Console.WriteLine("Enter a number ");
-int n=Convert.ToInt32(Console.ReadLine());
-if(n%2==0)
+﻿Console.WriteLine("Enter a letter ");
+char n = Convert.ToChar(Console.ReadLine());
+n = char.ToUpper(n);
+if (n > 64 && n < 91)
 {
-    Console.WriteLine("Even number");
+    if (n == 'A' || n == 'E' || n == 'I' || n == 'O' || n == 'U')
+    {
+        Console.WriteLine("Vowel");
+    }
+    else
+    {
+        Console.WriteLine("Consonant");
+    }
 }
 else
 {
-    Console.WriteLine("Odd number");
+    Console.WriteLine("Wrong input");
 }
